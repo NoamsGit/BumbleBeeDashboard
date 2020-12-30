@@ -1,5 +1,7 @@
 .info-panel-content {
   width: 150px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .info-panel-title {

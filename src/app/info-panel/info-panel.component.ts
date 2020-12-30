@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-info-panel',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./info-panel.component.css']
 })
 export class InfoPanelComponent implements OnInit {
+  @Input() title:string = 'TOTAL AREA'
+  value:string = '23 456'
 
 
   constructor() { }
